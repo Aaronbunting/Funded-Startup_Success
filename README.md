@@ -28,7 +28,7 @@ Three distinct models are crafted to make predictions:
 * Alternative Model 1: Enriched with three "relu" activated hidden layers, adding depth to its predictions.
 * Alternative Model 2: A minimalist approach with just one hidden layer, emphasizing simplicity.
 
-##Requirements
+## Requirements
 To join this venture, ensure you're equipped with:
 
 * Python
