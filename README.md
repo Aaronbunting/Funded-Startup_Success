@@ -15,23 +15,26 @@ IS_SUCCESSFUL - The crucial binary feature, marking the efficient use of funds.
 ## Structured Approach
 This project unfurls in a structured cadence:
 
-Data Preprocessing: The data undergoes meticulous cleansing. Categorical variables are transformed through one-hot encoding, while features are scaled using StandardScaler from sklearn.
-Building and Evaluating a Binary Classification Model: A deep neural network tailored for binary classification is crafted. Its prowess is gauged through loss and accuracy metrics.
-Optimizing the Neural Network Model: The model's architecture is fine-tuned for enhanced performance.
-The Models
+* Data Preprocessing: The data undergoes meticulous cleansing. Categorical variables are transformed through one-hot encoding, while features are scaled using StandardScaler from sklearn.
+
+* Building and Evaluating a Binary Classification Model: A deep neural network tailored for binary classification is crafted. Its prowess is gauged through loss and accuracy metrics.
+
+* Optimizing the Neural Network Model: The model's architecture is fine-tuned for enhanced performance.
+
+## The Models
 Three distinct models are crafted to make predictions:
 
-Base Model: Two hidden layers with "relu" activation and an output layer leveraging the "sigmoid" function. It thrives on the "adam" optimizer, guided by the binary_crossentropy metric.
-Alternative Model 1: Enriched with three "relu" activated hidden layers, adding depth to its predictions.
-Alternative Model 2: A minimalist approach with just one hidden layer, emphasizing simplicity.
+* Base Model: Two hidden layers with "relu" activation and an output layer leveraging the "sigmoid" function. It thrives on the "adam" optimizer, guided by the binary_crossentropy metric.
+* Alternative Model 1: Enriched with three "relu" activated hidden layers, adding depth to its predictions.
+* Alternative Model 2: A minimalist approach with just one hidden layer, emphasizing simplicity.
 
 ##Requirements
 To join this venture, ensure you're equipped with:
 
-Python
-pandas
-sklearn
-tensorflow
+* Python
+* pandas
+* sklearn
+* tensorflow
 
 ## Outcomes
 The models' efficacy resonates through their loss and accuracy scores. From this ensemble, the best performer emerges, ready to share its predictive insights.
